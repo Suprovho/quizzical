@@ -50,6 +50,7 @@ export default function App(params) {
          }
        }
        setScore(count)
+       // eslint-disable-next-line react-hooks/exhaustive-deps
     },[showAnswers])
 
 
