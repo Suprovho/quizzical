@@ -6,7 +6,7 @@ import blob2 from "./images/blob 5.png"
 
 export default function App(params) {
     const [showStart,setShowStart]=React.useState(true);
-    const[questions,setQuestions]=React.useState([])
+    const [questions,setQuestions]=React.useState([])
     const [score, setScore] = React.useState(0)
     const [showAnswers, setShowAnswers] = React.useState(false)
     const [allComplete, setAllComplete] = React.useState(false)
